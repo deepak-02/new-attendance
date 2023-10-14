@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import 'about.dart';
+import 'change_api.dart';
 
 class Settings extends StatefulWidget {
   const Settings({super.key});
@@ -27,6 +28,30 @@ class _SettingsState extends State<Settings> {
               padding: const EdgeInsets.all(8.0),
               child: Column(
                 children: [
+                  // Card(
+                  //   color: Colors.white,
+                  //   child: ListTile(
+                  //     tileColor: Colors.transparent,
+                  //     onTap: () => {
+                  //       Get.to(
+                  //         () => const ChangeApi(),
+                  //         transition: Transition.rightToLeft,
+                  //         duration: const Duration(milliseconds: 500),
+                  //       ),
+                  //     },
+                  //     leading: const CircleAvatar(
+                  //       backgroundColor: Color(0xcb1662ef),
+                  //       child: Icon(
+                  //         Icons.info_outlined,
+                  //         color: Color(0xffffffff),
+                  //       ),
+                  //     ),
+                  //     title: const Text(
+                  //       "Change Api",
+                  //       style: TextStyle(fontSize: 16),
+                  //     ),
+                  //   ),
+                  // ),
                   Card(
                     color: Colors.white,
                     child: ListTile(

@@ -15,8 +15,8 @@ class Attendance {
     required this.id,
     required this.firstIn,
     required this.firstOut,
-    required this.secondIn,
-    required this.secondOut,
+    // required this.secondIn,
+    // required this.secondOut,
     required this.name,
     required this.email,
     required this.count,
@@ -31,8 +31,8 @@ class Attendance {
   int id;
   String firstIn;
   String firstOut;
-  String secondIn;
-  String secondOut;
+  // String secondIn;
+  // String secondOut;
   String name;
   String email;
   int count;
@@ -47,8 +47,8 @@ class Attendance {
         id: json["id"],
         firstIn: json["first_In"],
         firstOut: json["first_out"],
-        secondIn: json["second_In"],
-        secondOut: json["second_out"],
+        // secondIn: json["second_In"],
+        // secondOut: json["second_out"],
         name: json["name"],
         email: json["email"],
         count: json["count"],
@@ -64,8 +64,8 @@ class Attendance {
         "id": id,
         "first_In": firstIn,
         "first_out": firstOut,
-        "second_In": secondIn,
-        "second_out": secondOut,
+        // "second_In": secondIn,
+        // "second_out": secondOut,
         "name": name,
         "email": email,
         "count": count,

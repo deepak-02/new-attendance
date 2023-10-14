@@ -215,12 +215,12 @@ class _TodaysAttendanceState extends State<TodaysAttendance> {
                                   //color: Colors.white
                                 ),
                               ),
-                              const SizedBox(height: 5,),
-                              Text(
-                                items.secondIn,
-                                style: const TextStyle(
-                                    fontSize: 14,),
-                              ),
+                              // const SizedBox(height: 5,),
+                              // Text(
+                              //   items.secondIn,
+                              //   style: const TextStyle(
+                              //       fontSize: 14,),
+                              // ),
                             ],
                           ),
                         ),
@@ -236,12 +236,12 @@ class _TodaysAttendanceState extends State<TodaysAttendance> {
                                   //color: Colors.white
                                 ),
                               ),
-                              const SizedBox(height: 5,),
-                              Text(
-                                items.secondOut,
-                                style: const TextStyle(
-                                    fontSize: 14,),
-                              ),
+                              // const SizedBox(height: 5,),
+                              // Text(
+                              //   items.secondOut,
+                              //   style: const TextStyle(
+                              //       fontSize: 14,),
+                              // ),
                             ],
                           ),
                         ),

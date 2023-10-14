@@ -11,6 +11,7 @@ import '../../api.dart';
 import '../../global.dart';
 import '../dashboard.dart';
 import '../forgotPassword/forgotPassword.dart';
+import '../home/settings/change_api.dart';
 
 class Login extends StatefulWidget {
   const Login({super.key});
@@ -164,6 +165,19 @@ class _LoginState extends State<Login> {
                   ],
                 ),
               ),
+              // TextButton(
+              //   child: const Text(
+              //     'Change Api',
+              //     style: TextStyle(fontSize: 16),
+              //   ),
+              //   onPressed: () {
+              //     Get.to(
+              //           () => const ChangeApi(),
+              //       transition: Transition.rightToLeft,
+              //       duration: const Duration(milliseconds: 800),
+              //     );
+              //   },
+              // ),
               const SizedBox(
                 height: 50,
               ),
